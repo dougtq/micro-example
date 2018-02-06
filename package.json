@@ -1,0 +1,27 @@
+{
+  "name": "micro-class",
+  "version": "1.0.0",
+  "description": "Micro Service example with node.js",
+  "main": "src/index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/micro",
+    "dev": "./node_modules/.bin/nodemon"
+  },
+  "keywords": [
+    "micro-services"
+  ],
+  "author": "Douglas E. Alves",
+  "license": "MIT",
+  "dependencies": {
+    "level": "^2.1.2",
+    "micro": "^9.1.0",
+    "then-levelup": "^1.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}
